@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box                v     ;
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a;
+}
+.calculator{
+    width: 350px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 16px;
+    background-color:pink
+    box-shadow 10px 10px;
+}
+input{
+    width:80%;
+    border: none; 
+    padding: 24px;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 5px 5px;
+    font-size: 40px;
+    text-align: right;
+    font-family: bold;
+    cursor: pointer;
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color:#0a0a0a;
+    color: white;
+   box-shadow: -0.7px -0.7px;
+   cursor: pointer;   
+}
+.equalBtn{
+    background-color: orange;
+
+}
+.Add{
+    color: green;
+}
+.sub{
+    color: yellow;
+}
+.mul{
+    color:orange
+}
+.AC{
+    color:blue
+}
+.DEL{
+    color: aqua;
+}
+.percent{
+    color:red;
+}
+.Divide{
+    color:blueviolet;
+}
